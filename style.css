@@ -30,6 +30,14 @@ h1 {
     text-align: center;
     color: var(--accent-color);
 }
+img {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    position: relative;
+    left: 325px;
+    top: 110px;
+}
 .wrapper {
     display: flex;
     justify-content: center;
