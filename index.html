@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur d'unité simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Convertisseur d'unité simple</h1>
+    <div class="wrapper">
+        <select name="unite" id="select_unit">
+            <option value="Celsius/Fahrenheit">Celsius / Fahrenheit</option>
+            <option value="Meter/Foot">Meter / Foot</option>
+        </select>
+    </div>
+        
+
+    <div class="resultat_wrapper">
+        <input type="number" id="firstValue" placeholder="Entrez une valeur en °C">
+        <button id="sendButton">Convertir</button>
+        <p id="resultat">-></p>
+        <p id="secondValue"></p> 
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,800;1,800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+:root {
+    --background : #101114;
+    --primary-color : #1C1D20;
+    --secondary-color : #4A4D57;
+    --accent-color : #00ffc4;
+    --text-color : #F9F9F9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body { 
+    background-color: var(--background);
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent-color);
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+}
+
+.resultat_wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 20px;
+}
+
+select {
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+input {
+    resize: none;
+    font-size: 16px;
+    color: var(--text-color);    
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+input::placeholder {
+    color: var(--text-color);
+    opacity: 0.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus-visible {
+    outline: none;
+}
+#sendButton {
+    color: var(--text-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+    width: 110px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 650;
+
+}
+
+select{
+    color: var(--text-color);    
+    background-color: var(--secondary-color);
+    text-decoration: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+p {
+    color: var(--text-color);
+    padding-top: 13px;
+}
+
+#resultat {
+    color: var(--accent-color);
+    font-weight: 800;
+}
+
+#secondValue {
+    font-size: 22px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
