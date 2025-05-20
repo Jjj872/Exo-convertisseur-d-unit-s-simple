@@ -57,6 +57,19 @@ select {
     padding: 5px 10px;
     font-size: 22px;
 }
+#click_icon {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    position: relative;
+    left: 800px;
+    top: 70px;
+    color: #00ffc4;
+}
+
+.svg_wrapper {
+    position: absolute;
+}
 
 input {
     resize: none;
